@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::get('manhdt/{age}', function($age)
 {
-	return "My name is ManhDT, I'm " . $age . " year old";
+	return "My name is ManhDT, I'm 999" . $age . " year old";
 });
 
 Route::get('environment', function()
